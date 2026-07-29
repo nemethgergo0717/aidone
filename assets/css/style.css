@@ -69,6 +69,7 @@ ul {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
 /* ---------- Header ---------- */
 
 .site-header {
@@ -227,6 +228,7 @@ ul {
 .nav-toggle span::after {
   top: 7px;
 }
+
 /* ---------- Hero ---------- */
 
 .hero {
@@ -357,6 +359,7 @@ section {
   color: var(--color-ink-soft);
   font-size: 1.02rem;
 }
+
 /* ---------- Cards / Grids ---------- */
 
 .grid-2 {
@@ -505,6 +508,7 @@ section {
   color: var(--color-accent);
   font-weight: 700;
 }
+
 /* Process steps */
 
 .steps {
@@ -570,6 +574,185 @@ section {
   color: rgba(255, 255, 255, 0.75);
   max-width: 50ch;
   margin: 0 auto 28px;
+}
+
+/* ---------- Trust / guarantee strip ---------- */
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.trust-item {
+  text-align: center;
+  padding: 26px 18px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.trust-item .icon {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 14px;
+  border-radius: 12px;
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust-item h3 {
+  font-size: 0.98rem;
+  margin: 0 0 6px;
+  color: var(--color-navy);
+}
+
+.trust-item p {
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--color-ink-soft);
+}
+
+/* ---------- Interactive tools: ROI calculator & quiz ---------- */
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.tool-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 32px;
+}
+
+.tool-card .tool-tag {
+  display: inline-block;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 10px;
+}
+
+.tool-card h3 {
+  margin: 0 0 8px;
+  color: var(--color-navy);
+  font-size: 1.2rem;
+}
+
+.tool-card > p {
+  color: var(--color-ink-soft);
+  font-size: 0.94rem;
+  margin: 0 0 20px;
+}
+
+.roi-form {
+  display: grid;
+  gap: 14px;
+}
+
+.roi-form .field label {
+  margin-bottom: 6px;
+}
+
+.roi-result {
+  margin-top: 18px;
+  padding: 18px 20px;
+  border-radius: var(--radius-sm);
+  background: var(--color-accent-soft);
+  display: none;
+}
+
+.roi-result.show {
+  display: block;
+}
+
+.roi-result strong {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--color-navy);
+  letter-spacing: -0.01em;
+  margin-bottom: 4px;
+}
+
+.roi-result span {
+  font-size: 0.88rem;
+  color: var(--color-ink-soft);
+}
+
+.disclaimer {
+  font-size: 0.78rem;
+  color: var(--color-ink-soft);
+  margin-top: 14px;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+}
+
+.quiz-question p.q-text {
+  font-weight: 600;
+  color: var(--color-navy);
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+}
+
+.quiz-options {
+  display: grid;
+  gap: 8px;
+}
+
+.quiz-options label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.92rem;
+  font-weight: 400;
+  color: var(--color-ink-soft);
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.quiz-options input {
+  width: auto;
+}
+
+.quiz-result {
+  margin-top: 8px;
+  padding: 18px 20px;
+  border-radius: var(--radius-sm);
+  background: var(--color-accent-soft);
+  display: none;
+}
+
+.quiz-result.show {
+  display: block;
+}
+
+.quiz-result strong {
+  display: block;
+  color: var(--color-navy);
+  margin-bottom: 8px;
+  font-size: 1.02rem;
+}
+
+.quiz-result .btn {
+  margin-top: 12px;
+}
+
+/* ---------- Automation examples ---------- */
+
+.example-card .icon {
+  background: var(--color-navy);
+  color: var(--color-cyan);
 }
 
 /* ---------- Contact page ---------- */
@@ -686,6 +869,7 @@ textarea {
   resize: vertical;
   min-height: 120px;
 }
+
 /* ---------- Footer ---------- */
 
 .site-footer {
@@ -752,7 +936,9 @@ textarea {
   .grid-4,
   .steps,
   .values-grid,
-  .contact-grid {
+  .contact-grid,
+  .tools-grid,
+  .trust-grid {
     grid-template-columns: 1fr;
   }
 
@@ -816,124 +1002,3 @@ textarea {
     padding: 40px 24px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
