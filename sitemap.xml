@@ -23,6 +23,41 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://aidone.hu/iparagak.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/iparagak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/industries.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/kkv-adminisztracio.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/kkv-adminisztracio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/sme-admin-automation.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/konyvelo-irodak.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/konyvelo-irodak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/accounting-firms.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/webshopok.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/webshopok.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/online-stores.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/marketing-ugynoksegek.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/marketing-ugynoksegek.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/marketing-agencies.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aidone.hu/rolunk.html</loc>
     <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/rolunk.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/about.html"/>
@@ -56,6 +91,41 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/ai-automation.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/industries.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/iparagak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/industries.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/sme-admin-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/kkv-adminisztracio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/sme-admin-automation.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/accounting-firms.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/konyvelo-irodak.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/accounting-firms.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/online-stores.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/webshopok.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/online-stores.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/marketing-agencies.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/marketing-ugynoksegek.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/marketing-agencies.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aidone.hu/en/about.html</loc>
