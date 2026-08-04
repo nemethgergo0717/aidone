@@ -148,76 +148,218 @@
   </url>
   <url>
     <loc>https://aidone.hu/blog/mi-az-ai-automatizacio.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/mi-az-ai-automatizacio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/what-is-ai-automation.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/7-jel-ai-automatizacio-kell.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/7-jel-ai-automatizacio-kell.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/7-signs-you-need-ai-automation.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/ai-chatbot-bevezetese-lepesrol-lepesre.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-chatbot-bevezetese-lepesrol-lepesre.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-chatbot-implementation-step-by-step.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/ai-automatizacio-ara-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-automatizacio-ara-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-automation-pricing-2026.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/hogyan-valasszon-ai-partnert.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/hogyan-valasszon-ai-partnert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/how-to-choose-an-ai-automation-partner.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/ai-konyvelo-irodaknak-bizonylatfeldolgozas.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-konyvelo-irodaknak-bizonylatfeldolgozas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-document-processing-for-accounting-firms.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/webshop-kosarelhagyas-csokkentese-ai.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/webshop-kosarelhagyas-csokkentese-ai.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/reduce-cart-abandonment-with-ai.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/ai-kkv-adminisztracio-idomegtakaritas.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-kkv-adminisztracio-idomegtakaritas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-automation-for-smes-time-savings.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/marketing-ugynoksegek-kampanyriport-automatizalas.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/marketing-ugynoksegek-kampanyriport-automatizalas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/campaign-reporting-automation-for-marketing-agencies.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/ajanlat-szerzodeskeszites-automatizalasa.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ajanlat-szerzodeskeszites-automatizalasa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/quote-and-contract-automation.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/ai-asszisztens-belso-tudasbazis.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-asszisztens-belso-tudasbazis.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-assistant-internal-knowledge-base.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/ai-chatbot-vs-elo-ugyfelszolgalat.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-chatbot-vs-elo-ugyfelszolgalat.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-chatbot-vs-live-customer-service.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/seo-barat-honlap-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/seo-barat-honlap-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/seo-friendly-website-2026.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/rendszerek-osszekotese-crm-konyveles-webshop.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/rendszerek-osszekotese-crm-konyveles-webshop.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/connecting-crm-accounting-online-store.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://aidone.hu/blog/ai-vs-hagyomanyos-automatizacio.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-vs-hagyomanyos-automatizacio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-vs-traditional-automation.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog.html"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/what-is-ai-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/mi-az-ai-automatizacio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/what-is-ai-automation.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/7-signs-you-need-ai-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/7-jel-ai-automatizacio-kell.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/7-signs-you-need-ai-automation.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/ai-chatbot-implementation-step-by-step.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-chatbot-bevezetese-lepesrol-lepesre.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-chatbot-implementation-step-by-step.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/ai-automation-pricing-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-automatizacio-ara-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-automation-pricing-2026.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/how-to-choose-an-ai-automation-partner.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/hogyan-valasszon-ai-partnert.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/how-to-choose-an-ai-automation-partner.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/ai-document-processing-for-accounting-firms.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-konyvelo-irodaknak-bizonylatfeldolgozas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-document-processing-for-accounting-firms.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/reduce-cart-abandonment-with-ai.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/webshop-kosarelhagyas-csokkentese-ai.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/reduce-cart-abandonment-with-ai.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/ai-automation-for-smes-time-savings.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-kkv-adminisztracio-idomegtakaritas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-automation-for-smes-time-savings.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/campaign-reporting-automation-for-marketing-agencies.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/marketing-ugynoksegek-kampanyriport-automatizalas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/campaign-reporting-automation-for-marketing-agencies.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/quote-and-contract-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ajanlat-szerzodeskeszites-automatizalasa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/quote-and-contract-automation.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/ai-assistant-internal-knowledge-base.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-asszisztens-belso-tudasbazis.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-assistant-internal-knowledge-base.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/ai-chatbot-vs-live-customer-service.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-chatbot-vs-elo-ugyfelszolgalat.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-chatbot-vs-live-customer-service.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/seo-friendly-website-2026.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/seo-barat-honlap-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/seo-friendly-website-2026.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/connecting-crm-accounting-online-store.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/rendszerek-osszekotese-crm-konyveles-webshop.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/connecting-crm-accounting-online-store.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aidone.hu/en/blog/ai-vs-traditional-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-vs-hagyomanyos-automatizacio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-vs-traditional-automation.html"/>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
