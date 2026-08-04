@@ -25,6 +25,35 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var lang = (document.documentElement.lang || "hu").indexOf("en") === 0 ? "en" : "hu";
 
+  // ---------- Cookie consent banner ----------
+  var cookieBanner = document.querySelector("#cookie-banner");
+  if (cookieBanner) {
+    var CONSENT_KEY = "aidone_cookie_notice_dismissed";
+    try {
+      if (!window.localStorage.getItem(CONSENT_KEY)) {
+        window.setTimeout(function () {
+          cookieBanner.classList.add("show");
+        }, 400);
+      }
+    } catch (e) {
+      // localStorage unavailable — show the banner anyway
+      cookieBanner.classList.add("show");
+    }
+
+    var dismissBtn = cookieBanner.querySelector("[data-cookie-dismiss]");
+    if (dismissBtn) {
+      dismissBtn.addEventListener("click", function () {
+        cookieBanner.classList.remove("show");
+        try {
+          window.localStorage.setItem(CONSENT_KEY, "1");
+        } catch (e) {
+          /* ignore */
+        }
+      });
+    }
+  }
+
+
   // ---------- ROI calculator ----------
   var roiForm = document.querySelector("#roi-calc-form");
   if (roiForm) {
