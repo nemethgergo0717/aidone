@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Chatbot Implementation Step by Step | AI Done</title>
+<meta name="description" content="How do you implement an AI customer service chatbot in your business? A practical, step-by-step guide for SMEs — from planning to launch.">
+<link rel="canonical" href="https://aidone.hu/en/blog/ai-chatbot-implementation-step-by-step.html">
+<link rel="alternate" hreflang="hu" href="https://aidone.hu/blog/ai-chatbot-bevezetese-lepesrol-lepesre.html">
+<link rel="alternate" hreflang="en" href="https://aidone.hu/en/blog/ai-chatbot-implementation-step-by-step.html">
+<link rel="alternate" hreflang="x-default" href="https://aidone.hu/blog/ai-chatbot-bevezetese-lepesrol-lepesre.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI Chatbot Implementation Step by Step | AI Done">
+<meta property="og:description" content="How do you implement an AI customer service chatbot in your business? A practical, step-by-step guide for SMEs — from planning to launch.">
+<meta property="og:url" content="https://aidone.hu/en/blog/ai-chatbot-implementation-step-by-step.html">
+<meta property="og:locale" content="en_US">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Implementing an AI Customer Service Chatbot: A Step-by-Step Guide for SMEs",
+  "description": "How do you implement an AI customer service chatbot in your business? A practical, step-by-step guide for SMEs — from planning to launch.",
+  "author": {
+    "@type": "Organization",
+    "name": "AI Done Kft."
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI Done Kft."
+  },
+  "mainEntityOfPage": "https://aidone.hu/en/blog/ai-chatbot-implementation-step-by-step.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is a week enough to implement a chatbot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The technical setup is often fast, but assembling a good-quality knowledge base and testing takes time — a more realistic timeframe for a reliable launch is 2-4 weeks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if the bot gives a wrong answer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That's why continuous testing and a clear escalation rule matter: if the bot isn't confident in an answer, it should route the customer to a colleague rather than guess."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this work equally well for online stores and service businesses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for both — only the content used differs: for online stores it's order tracking and product data, for service businesses it's more about service descriptions and appointment booking. See details in our solution for online stores."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" class="logo">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="#4F46E5"/>
+        <circle cx="10" cy="21" r="2.6" fill="#22D3EE"/>
+        <circle cx="22" cy="21" r="2.6" fill="#22D3EE"/>
+        <circle cx="16" cy="10" r="2.6" fill="#fff"/>
+        <path d="M16 12.6L10 18.4M16 12.6L22 18.4M10.6 21H21.4" stroke="rgba(255,255,255,0.55)" stroke-width="1.4"/>
+      </svg>
+      AI Done
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../services.html">Services</a></li>
+        <li><a href="../industries.html">Industries</a></li>
+        <li><a href="../blog.html" aria-current="page">Blog</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="lang-switch">
+          <a href="../../blog/ai-chatbot-bevezetese-lepesrol-lepesre.html">HU</a>
+          <a href="#" aria-current="true">EN</a>
+        </div>
+        <a href="../contact.html" class="btn btn-primary">Get a Quote</a>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" style="padding: 56px 0 64px;">
+    <div class="container" style="grid-template-columns: 1fr;">
+      <div>
+        <p class="breadcrumbs"><a href="../index.html">Home</a> / <a href="../blog.html">Blog</a> / Practical Guides</p>
+        <span class="eyebrow">Practical Guides</span>
+        <h1 style="max-width: 32ch;">Implementing an AI Customer Service Chatbot: A Step-by-Step Guide for SMEs</h1>
+        <p class="lead">How do you implement an AI customer service chatbot in your business? A practical, step-by-step guide for SMEs — from planning to launch.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="article-prose">
+<p>An AI customer service chatbot is one of the fastest-paying-off automations, yet many businesses put off implementing one because they don't know where to start. In reality, the process is much simpler than it seems at first — if you follow the right order. This guide walks you through the steps.</p>
+<h2>Step 1: Collect your most common customer questions</h2>
+<p>Before deciding on any technology, review your customer inquiries from the past 1-3 months — emails, Messenger messages, phone notes. You'll likely find that 60-80% of questions fall into just 10-15 topics: opening hours, prices, availability, order status, warranty questions.</p>
+<h2>Step 2: Decide what the bot should answer, and what should go to a human</h2>
+<p>A good chatbot doesn't try to answer everything. The goal is a clear boundary: the bot answers common, simple questions immediately, and forwards everything else — complaints, unique cases, more complex requests — to a colleague, along with the context.</p>
+<h2>Step 3: Choose your channel</h2>
+<p>For most small businesses, the website and/or Messenger is the best entry point, because that's where prospective customers first encounter the company. For online stores, it's worth connecting order tracking too, so the bot can tell customers their package status.</p>
+<h2>Step 4: Train the bot on your own content</h2>
+<p>A chatbot is only as good as the source material it's given: FAQ pages, service descriptions, past customer replies. The more accurate and current this material is, the fewer wrong answers you'll get.</p>
+<h2>Step 5: Test with real questions before going live</h2>
+<p>Before launch, it's worth setting aside 1-2 weeks for testing: try the bot out with colleagues first, then with a small group of customers, before making it fully public.</p>
+<h2>Step 6: Track what works and what doesn't</h2>
+<p>Launch isn't the end of the project. It's worth regularly reviewing which questions the bot is uncertain about, and fine-tuning its knowledge base based on that.</p>
+<h2>How long until it pays off?</h2>
+<p>The exact payoff depends on your customer service load, but for a medium-traffic website or online store, 50-70% of the most common questions can typically be handled by the bot, directly reducing the work hours spent on customer service. If you'd like your own estimate, try our <a href="../index.html#tools">ROI calculator</a>.</p>
+<h2>Frequently Asked Questions</h2>
+<p><strong>Is a week enough to implement a chatbot?</strong><br />
+The technical setup is often fast, but assembling a good-quality knowledge base and testing takes time — a more realistic timeframe for a reliable launch is 2-4 weeks.</p>
+<p><strong>What happens if the bot gives a wrong answer?</strong><br />
+That's why continuous testing and a clear escalation rule matter: if the bot isn't confident in an answer, it should route the customer to a colleague rather than guess.</p>
+<p><strong>Does this work equally well for online stores and service businesses?</strong><br />
+Yes, for both — only the content used differs: for online stores it's order tracking and product data, for service businesses it's more about service descriptions and appointment booking. See details in our <a href="../online-stores.html">solution for online stores</a>.</p>
+<h2>Summary</h2>
+<p>A well-planned AI chatbot isn't a complicated IT project — it's a step that can be rolled out gradually and shows results quickly. If you'd like an expert to review your processes and suggest a tailored solution, request a <a href="../contact.html?topic=audit">free AI Audit</a>.</p>
+      </div>
+      <p class="back-link"><a href="../blog.html">&larr; Back to the Blog</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="../index.html" class="logo">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="32" height="32" rx="8" fill="#4F46E5"/>
+            <circle cx="10" cy="21" r="2.6" fill="#22D3EE"/>
+            <circle cx="22" cy="21" r="2.6" fill="#22D3EE"/>
+            <circle cx="16" cy="10" r="2.6" fill="#fff"/>
+            <path d="M16 12.6L10 18.4M16 12.6L22 18.4M10.6 21H21.4" stroke="rgba(255,255,255,0.55)" stroke-width="1.4"/>
+          </svg>
+          AI Done
+        </a>
+        <p>AI automation and consulting for B2B and B2C businesses, with website development when needed.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sitemap</h4>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../ai-automation.html">AI Automation</a></li>
+          <li><a href="../industries.html">Industries</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:gergo.nemeth.1983@gmail.com">gergo.nemeth.1983@gmail.com</a></li>
+          <li><span>+36 XX XXX XXXX</span></li>
+          <li><span>Budapest, Hungary</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> AI Done Kft. All rights reserved.</span>
+      <span>Company registration &amp; VAT number coming soon</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../../assets/js/main.js"></script>
+</body>
+</html>
