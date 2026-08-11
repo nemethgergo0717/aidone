@@ -71,9 +71,35 @@
 <body>
 <div id="cookie-banner" class="cookie-banner" role="region" aria-label="Cookie notice">
   <div class="container">
-    <p>This website may use cookies for basic functionality. We do not currently use tracking or marketing cookies. Read more in our <a href="../privacy.html">Privacy &amp; Cookie Notice</a>.</p>
-    <div class="cookie-banner-actions">
-      <button type="button" class="btn btn-primary" data-cookie-dismiss>Got it</button>
+    <div class="cookie-banner-main">
+      <p>This website may use cookies and browser storage (localStorage) for basic functionality. We do not currently use tracking or marketing cookies. Read more in our <a href="../privacy.html">Privacy &amp; Cookie Notice</a>.</p>
+      <div class="cookie-banner-actions">
+        <button type="button" class="btn btn-ghost" style="border-color: rgba(255,255,255,0.3); color:#fff;" data-cookie-settings-toggle>Settings</button>
+        <button type="button" class="btn btn-ghost" style="border-color: rgba(255,255,255,0.3); color:#fff;" data-cookie-reject>Necessary only</button>
+        <button type="button" class="btn btn-primary" data-cookie-accept>Accept</button>
+      </div>
+    </div>
+    <div class="cookie-banner-settings" id="cookie-banner-settings" hidden>
+      <div class="cookie-setting-row">
+        <div>
+          <strong>Necessary</strong>
+          <p>Required for the site's basic functionality and to remember your cookie choice. Always active.</p>
+        </div>
+        <span class="cookie-toggle-locked">Always active</span>
+      </div>
+      <div class="cookie-setting-row">
+        <div>
+          <strong>Analytics &amp; marketing</strong>
+          <p>We don't currently use these. If we introduce them in the future, you'll be able to enable or disable them here.</p>
+        </div>
+        <label class="cookie-toggle">
+          <input type="checkbox" data-cookie-analytics>
+          Enable
+        </label>
+      </div>
+      <div class="cookie-banner-settings-actions">
+        <button type="button" class="btn btn-primary" data-cookie-save>Save settings</button>
+      </div>
     </div>
   </div>
 </div>
