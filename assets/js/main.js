@@ -28,7 +28,26 @@ document.addEventListener("DOMContentLoaded", function () {
   // ---------- Cookie consent banner ----------
   var cookieBanner = document.querySelector("#cookie-banner");
   if (cookieBanner) {
-    var CONSENT_KEY = "aidone_cookie_notice_dismissed";
+    var CONSENT_KEY = "aidone_cookie_consent_v2";
+    var settingsPanel = cookieBanner.querySelector("#cookie-banner-settings");
+    var settingsToggleBtn = cookieBanner.querySelector("[data-cookie-settings-toggle]");
+    var analyticsCheckbox = cookieBanner.querySelector("[data-cookie-analytics]");
+
+    function hideCookieBanner() {
+      cookieBanner.classList.remove("show");
+    }
+
+    function saveCookieConsent(analyticsAllowed) {
+      try {
+        window.localStorage.setItem(
+          CONSENT_KEY,
+          JSON.stringify({ necessary: true, analytics: !!analyticsAllowed, ts: Date.now() })
+        );
+      } catch (e) {
+        /* ignore */
+      }
+    }
+
     try {
       if (!window.localStorage.getItem(CONSENT_KEY)) {
         window.setTimeout(function () {
@@ -40,15 +59,41 @@ document.addEventListener("DOMContentLoaded", function () {
       cookieBanner.classList.add("show");
     }
 
-    var dismissBtn = cookieBanner.querySelector("[data-cookie-dismiss]");
-    if (dismissBtn) {
-      dismissBtn.addEventListener("click", function () {
-        cookieBanner.classList.remove("show");
-        try {
-          window.localStorage.setItem(CONSENT_KEY, "1");
-        } catch (e) {
-          /* ignore */
+    if (settingsToggleBtn && settingsPanel) {
+      settingsToggleBtn.addEventListener("click", function () {
+        var isHidden = settingsPanel.hasAttribute("hidden");
+        if (isHidden) {
+          settingsPanel.removeAttribute("hidden");
+        } else {
+          settingsPanel.setAttribute("hidden", "");
         }
+      });
+    }
+
+    var acceptBtn = cookieBanner.querySelector("[data-cookie-accept]");
+    if (acceptBtn) {
+      acceptBtn.addEventListener("click", function () {
+        if (analyticsCheckbox) analyticsCheckbox.checked = true;
+        saveCookieConsent(true);
+        hideCookieBanner();
+      });
+    }
+
+    var rejectBtn = cookieBanner.querySelector("[data-cookie-reject]");
+    if (rejectBtn) {
+      rejectBtn.addEventListener("click", function () {
+        if (analyticsCheckbox) analyticsCheckbox.checked = false;
+        saveCookieConsent(false);
+        hideCookieBanner();
+      });
+    }
+
+    var saveBtn = cookieBanner.querySelector("[data-cookie-save]");
+    if (saveBtn) {
+      saveBtn.addEventListener("click", function () {
+        var analyticsOn = analyticsCheckbox ? analyticsCheckbox.checked : false;
+        saveCookieConsent(analyticsOn);
+        hideCookieBanner();
       });
     }
   }
