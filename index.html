@@ -38,9 +38,35 @@
 <body>
 <div id="cookie-banner" class="cookie-banner" role="region" aria-label="Süti tájékoztató">
   <div class="container">
-    <p>Ez a weboldal sütiket használhat az alapszintű működéshez. Jelenleg nem alkalmazunk követő vagy marketing célú sütiket. Bővebben az <a href="adatvedelem.html">Adatvédelmi és süti tájékoztatóban</a> olvashat.</p>
-    <div class="cookie-banner-actions">
-      <button type="button" class="btn btn-primary" data-cookie-dismiss>Rendben</button>
+    <div class="cookie-banner-main">
+      <p>Ez a weboldal sütiket és a böngésző tárolóját (localStorage) használhatja az alapszintű működéshez. Jelenleg nem alkalmazunk követő vagy marketing célú sütiket. Bővebben az <a href="adatvedelem.html">Adatvédelmi és süti tájékoztatóban</a> olvashat.</p>
+      <div class="cookie-banner-actions">
+        <button type="button" class="btn btn-ghost" style="border-color: rgba(255,255,255,0.3); color:#fff;" data-cookie-settings-toggle>Beállítások</button>
+        <button type="button" class="btn btn-ghost" style="border-color: rgba(255,255,255,0.3); color:#fff;" data-cookie-reject>Csak a szükséges</button>
+        <button type="button" class="btn btn-primary" data-cookie-accept>Elfogadom</button>
+      </div>
+    </div>
+    <div class="cookie-banner-settings" id="cookie-banner-settings" hidden>
+      <div class="cookie-setting-row">
+        <div>
+          <strong>Szükséges</strong>
+          <p>A weboldal alapműködéséhez és az Ön süti-beállításának megjegyzéséhez szükségesek. Ezek mindig aktívak.</p>
+        </div>
+        <span class="cookie-toggle-locked">Mindig aktív</span>
+      </div>
+      <div class="cookie-setting-row">
+        <div>
+          <strong>Analitikai és marketing</strong>
+          <p>Jelenleg nem használunk ilyen sütiket. Ha a jövőben bevezetnénk, itt engedélyezheti vagy tilthatja le.</p>
+        </div>
+        <label class="cookie-toggle">
+          <input type="checkbox" data-cookie-analytics>
+          Engedélyezem
+        </label>
+      </div>
+      <div class="cookie-banner-settings-actions">
+        <button type="button" class="btn btn-primary" data-cookie-save>Beállítások mentése</button>
+      </div>
     </div>
   </div>
 </div>
