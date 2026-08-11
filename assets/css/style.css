@@ -1246,6 +1246,10 @@ textarea {
   gap: 16px;
 }
 
+.cookie-banner-settings[hidden] {
+  display: none;
+}
+
 .cookie-setting-row {
   display: flex;
   justify-content: space-between;
